@@ -10,8 +10,11 @@ import UIKit
 
 class FourthViewController: UIViewController {
     
+    let auth = Auth()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(auth.fetchData())
         // Do any additional setup after loading the view, typically from a nib.
     }
     
