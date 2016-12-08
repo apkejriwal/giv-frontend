@@ -48,7 +48,7 @@ class TransactionTableViewController: UITableViewController {
         
         let cell =
             self.tableView.dequeueReusableCell(withIdentifier:
-                "AttractionTableCell", for: indexPath)
+                "TransactionViewCell", for: indexPath)
                 as! TransactionViewCell
         
         let row = indexPath.row
