@@ -10,8 +10,16 @@ import UIKit
 
 class TransactionTableViewController: UITableViewController {
     
+    var attractionNames = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        attractionNames = ["Buckingham Palace",
+                           "The Eiffel Tower",
+                           "The Grand Canyon",
+                           "Windsor Castle",
+                           "Empire State Building"]
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -29,23 +37,26 @@ class TransactionTableViewController: UITableViewController {
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return attractionNames.count
     }
     
-    /*
-     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-     let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-     
-     // Configure the cell...
-     
-     return cell
-     }
-     */
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell =
+            self.tableView.dequeueReusableCell(withIdentifier:
+                "AttractionTableCell", for: indexPath)
+                as! TransactionViewCell
+        
+        let row = indexPath.row
+        cell.transactionCompany.font =
+            UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
+        cell.transactionCompany.text = attractionNames[row]
+               return cell
+    }
     
     /*
      // Override to support conditional editing of the table view.

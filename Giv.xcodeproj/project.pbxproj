@@ -10,6 +10,7 @@
 		9D2022EB1DF6DFF3008843E6 /* ViewCharityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2022EA1DF6DFF3008843E6 /* ViewCharityTableViewController.swift */; };
 		9D2022ED1DF754C7008843E6 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2022EC1DF754C7008843E6 /* LandingViewController.swift */; };
 		9D2022F01DF7668C008843E6 /* LinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2022EF1DF7668C008843E6 /* LinkViewController.swift */; };
+		9D2022F21DF8EC4D008843E6 /* TransactionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2022F11DF8EC4D008843E6 /* TransactionViewCell.swift */; };
 		9DAC7E961DF6C55B00403D00 /* AddCharityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC7E951DF6C55B00403D00 /* AddCharityViewController.swift */; };
 		9DDEF73D1DF4185800382558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDEF73C1DF4185800382558 /* AppDelegate.swift */; };
 		9DDEF73F1DF4185800382558 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDEF73E1DF4185800382558 /* FirstViewController.swift */; };
@@ -47,6 +48,7 @@
 		9D2022EC1DF754C7008843E6 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		9D2022EE1DF7564D008843E6 /* SF-Compact-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Regular.otf"; sourceTree = "<group>"; };
 		9D2022EF1DF7668C008843E6 /* LinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkViewController.swift; sourceTree = "<group>"; };
+		9D2022F11DF8EC4D008843E6 /* TransactionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewCell.swift; sourceTree = "<group>"; };
 		9DAC7E951DF6C55B00403D00 /* AddCharityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCharityViewController.swift; sourceTree = "<group>"; };
 		9DDEF7391DF4185800382558 /* Giv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDEF73C1DF4185800382558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				9DDEF76C1DF41D1000382558 /* ThirdViewController.swift */,
 				9DDEF7401DF4185800382558 /* TransactionTableViewController.swift */,
 				9DDEF7421DF4185800382558 /* Main.storyboard */,
+				9D2022F11DF8EC4D008843E6 /* TransactionViewCell.swift */,
 				9D2022EF1DF7668C008843E6 /* LinkViewController.swift */,
 				9DDEF76E1DF46ACB00382558 /* FourthViewController.swift */,
 				9DAC7E951DF6C55B00403D00 /* AddCharityViewController.swift */,
@@ -358,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DDEF7411DF4185800382558 /* TransactionTableViewController.swift in Sources */,
+				9D2022F21DF8EC4D008843E6 /* TransactionViewCell.swift in Sources */,
 				9DDEF73D1DF4185800382558 /* AppDelegate.swift in Sources */,
 				9D2022ED1DF754C7008843E6 /* LandingViewController.swift in Sources */,
 				9DDEF76D1DF41D1000382558 /* ThirdViewController.swift in Sources */,
