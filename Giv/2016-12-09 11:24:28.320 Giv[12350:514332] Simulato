@@ -1,0 +1,428 @@
+2016-12-09 11:24:28.320 Giv[12350:514332] Simulator user has requested new graphics quality: 10
+[PlistManager] PlistManager started
+2016-12-09 11:24:28.628233 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60800028aaa0 UIButton:0x7fa209d0fae0'SIGN IN'.leading == UIView:0x7fa209c024c0.leadingMargin + 78   (active)>",
+    "<NSLayoutConstraint:0x60800028a550 UIButton:0x7fa209d0fae0'SIGN IN'.leading == UIView:0x7fa209c024c0.leadingMargin + 66   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60800028aaa0 UIButton:0x7fa209d0fae0'SIGN IN'.leading == UIView:0x7fa209c024c0.leadingMargin + 78   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:28.629697 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60800028a8c0 UIButton:0x7fa209d0fae0'SIGN IN'.leading == UIButton:0x7fa209d0d770'REGISTER'.leading   (active)>",
+    "<NSLayoutConstraint:0x60800028a550 UIButton:0x7fa209d0fae0'SIGN IN'.leading == UIView:0x7fa209c024c0.leadingMargin + 66   (active)>",
+    "<NSLayoutConstraint:0x608000289f60 UIButton:0x7fa209d0d770'REGISTER'.leading == UIView:0x7fa209c024c0.leadingMargin + 78   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x608000289f60 UIButton:0x7fa209d0d770'REGISTER'.leading == UIView:0x7fa209c024c0.leadingMargin + 78   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:28.667116 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60800028a730 UIImageView:0x7fa209c1a170.width == 163   (active)>",
+    "<NSLayoutConstraint:0x608000283ed0 H:[UIImageView:0x7fa209c186f0]-(0)-|   (active, names: '|':UIView:0x7fa209c024c0 )>",
+    "<NSLayoutConstraint:0x608000284010 H:|-(0)-[UIImageView:0x7fa209c186f0]   (active, names: '|':UIView:0x7fa209c024c0 )>",
+    "<NSLayoutConstraint:0x608000286d10 UILabel:0x7fa209c19110'WELCOME TO '.centerX == UIImageView:0x7fa209c186f0.centerX   (active)>",
+    "<NSLayoutConstraint:0x608000287080 UILabel:0x7fa209c19110'WELCOME TO '.centerX == UILabel:0x7fa209d0fda0'GIV'.centerX   (active)>",
+    "<NSLayoutConstraint:0x6080002860e0 UILabel:0x7fa209d0fda0'GIV'.centerX == UIImageView:0x7fa209c1a170.centerX   (active)>",
+    "<NSLayoutConstraint:0x60800028ab90 UIView:0x7fa209c024c0.trailingMargin == UIButton:0x7fa209d0fae0'SIGN IN'.trailing + 79   (active)>",
+    "<NSLayoutConstraint:0x60800028a910 UIButton:0x7fa209d0fae0'SIGN IN'.trailing == UIImageView:0x7fa209c1a170.trailing   (active)>",
+    "<NSLayoutConstraint:0x608000288340 'UIView-Encapsulated-Layout-Width' UIView:0x7fa209c024c0.width == 414   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60800028a730 UIImageView:0x7fa209c1a170.width == 163   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.410182 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60000028fb40 V:[_UILayoutGuide:0x7fa209d04aa0]-(22)-[UILabel:0x7fa209c24b80'SIGN - IN']   (active)>",
+    "<NSLayoutConstraint:0x60000028faf0 V:[_UILayoutGuide:0x7fa209d04aa0]-(8)-[UILabel:0x7fa209c24b80'SIGN - IN']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60000028fb40 V:[_UILayoutGuide:0x7fa209d04aa0]-(22)-[UILabel:0x7fa209c24b80'SIGN - IN']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.410983 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60000028faa0 H:[UITextField:0x7fa209c20930]-(0)-|   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<NSLayoutConstraint:0x60000028fa50 H:[UITextField:0x7fa209c20930]-(-4)-|   (active, names: '|':UIView:0x7fa209c24800 )>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60000028faa0 H:[UITextField:0x7fa209c20930]-(0)-|   (active, names: '|':UIView:0x7fa209c24800 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.412178 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x608000293010 UILabel:0x7fa209c24b80'SIGN - IN'.width == 296   (active)>",
+    "<NSLayoutConstraint:0x60800028dbb0 UITextField:0x7fa209c20930.width == 379   (active)>",
+    "<NSLayoutConstraint:0x60000028fc80 UILabel:0x7fa209c24b80'SIGN - IN'.leading == UIView:0x7fa209c24800.leadingMargin + 22   (active)>",
+    "<NSLayoutConstraint:0x60000028fc30 UIView:0x7fa209c24800.trailingMargin == UILabel:0x7fa209c24b80'SIGN - IN'.trailing + 25   (active)>",
+    "<NSLayoutConstraint:0x60000028fa50 H:[UITextField:0x7fa209c20930]-(-4)-|   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<NSLayoutConstraint:0x60000028fa00 H:|-(0)-[UITextField:0x7fa209c20930]   (active, names: '|':UIView:0x7fa209c24800 )>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60800028dbb0 UITextField:0x7fa209c20930.width == 379   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.412957 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60000028f9b0 V:[UILabel:0x7fa209c24b80'SIGN - IN']-(39)-[UITextField:0x7fa209c20930]   (active)>",
+    "<NSLayoutConstraint:0x60000028f8c0 V:[UILabel:0x7fa209c24b80'SIGN - IN']-(56)-[UITextField:0x7fa209c20930]   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60000028f8c0 V:[UILabel:0x7fa209c24b80'SIGN - IN']-(56)-[UITextField:0x7fa209c20930]   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.414058 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x608000293010 UILabel:0x7fa209c24b80'SIGN - IN'.width == 296   (active)>",
+    "<NSLayoutConstraint:0x6080002904f0 UITextField:0x7fa209c233d0.width == 379   (active)>",
+    "<NSLayoutConstraint:0x60000028fc80 UILabel:0x7fa209c24b80'SIGN - IN'.leading == UIView:0x7fa209c24800.leadingMargin + 22   (active)>",
+    "<NSLayoutConstraint:0x60000028fc30 UIView:0x7fa209c24800.trailingMargin == UILabel:0x7fa209c24b80'SIGN - IN'.trailing + 25   (active)>",
+    "<NSLayoutConstraint:0x60000028f910 H:[UITextField:0x7fa209c233d0]-(0)-|   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<NSLayoutConstraint:0x60000028f870 H:|-(0)-[UITextField:0x7fa209c233d0]   (active, names: '|':UIView:0x7fa209c24800 )>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6080002904f0 UITextField:0x7fa209c233d0.width == 379   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.414818 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60000028f910 H:[UITextField:0x7fa209c233d0]-(0)-|   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<NSLayoutConstraint:0x60000028f820 H:[UITextField:0x7fa209c233d0]-(-4)-|   (active, names: '|':UIView:0x7fa209c24800 )>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60000028f910 H:[UITextField:0x7fa209c233d0]-(0)-|   (active, names: '|':UIView:0x7fa209c24800 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.415581 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60000028f780 V:[UILabel:0x7fa209c24b80'SIGN - IN']-(83)-[UITextField:0x7fa209c233d0]   (active)>",
+    "<NSLayoutConstraint:0x60000028f730 V:[UILabel:0x7fa209c24b80'SIGN - IN']-(66)-[UITextField:0x7fa209c233d0]   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60000028f780 V:[UILabel:0x7fa209c24b80'SIGN - IN']-(83)-[UITextField:0x7fa209c233d0]   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.416710 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x608000293010 UILabel:0x7fa209c24b80'SIGN - IN'.width == 296   (active)>",
+    "<NSLayoutConstraint:0x60000028cda0 UIButton:0x7fa209d093a0'LOGIN'.width == 377   (active)>",
+    "<NSLayoutConstraint:0x60000028fc80 UILabel:0x7fa209c24b80'SIGN - IN'.leading == UIView:0x7fa209c24800.leadingMargin + 22   (active)>",
+    "<NSLayoutConstraint:0x60000028fc30 UIView:0x7fa209c24800.trailingMargin == UILabel:0x7fa209c24b80'SIGN - IN'.trailing + 25   (active)>",
+    "<NSLayoutConstraint:0x60000028f6e0 H:|-(0)-[UIButton:0x7fa209d093a0'LOGIN']   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<NSLayoutConstraint:0x60000028f5f0 H:[UIButton:0x7fa209d093a0'LOGIN']-(0)-|   (active, names: '|':UIView:0x7fa209c24800 )>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60000028cda0 UIButton:0x7fa209d093a0'LOGIN'.width == 377   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.417702 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x608000293010 UILabel:0x7fa209c24b80'SIGN - IN'.width == 296   (active)>",
+    "<NSLayoutConstraint:0x60000028cd00 UIButton:0x7fa209d093a0'LOGIN'.width >= 377   (active)>",
+    "<NSLayoutConstraint:0x60000028fc80 UILabel:0x7fa209c24b80'SIGN - IN'.leading == UIView:0x7fa209c24800.leadingMargin + 22   (active)>",
+    "<NSLayoutConstraint:0x60000028fc30 UIView:0x7fa209c24800.trailingMargin == UILabel:0x7fa209c24b80'SIGN - IN'.trailing + 25   (active)>",
+    "<NSLayoutConstraint:0x60000028f6e0 H:|-(0)-[UIButton:0x7fa209d093a0'LOGIN']   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<NSLayoutConstraint:0x60000028f5f0 H:[UIButton:0x7fa209d093a0'LOGIN']-(0)-|   (active, names: '|':UIView:0x7fa209c24800 )>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60000028cd00 UIButton:0x7fa209d093a0'LOGIN'.width >= 377   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.418648 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60800028db60 UITextField:0x7fa209c20930.height == 30   (active)>",
+    "<NSLayoutConstraint:0x60800028da70 UITextField:0x7fa209c233d0.height == 30   (active)>",
+    "<NSLayoutConstraint:0x60000028f9b0 V:[UILabel:0x7fa209c24b80'SIGN - IN']-(39)-[UITextField:0x7fa209c20930]   (active)>",
+    "<NSLayoutConstraint:0x60000028f730 V:[UILabel:0x7fa209c24b80'SIGN - IN']-(66)-[UITextField:0x7fa209c233d0]   (active)>",
+    "<NSLayoutConstraint:0x60000028f690 V:[UITextField:0x7fa209c233d0]-(63.5)-[UIButton:0x7fa209d093a0'LOGIN']   (active)>",
+    "<NSLayoutConstraint:0x60000028f5a0 V:[UITextField:0x7fa209c20930]-(104)-[UIButton:0x7fa209d093a0'LOGIN']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60800028da70 UITextField:0x7fa209c233d0.height == 30   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.419313 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60000028f690 V:[UITextField:0x7fa209c233d0]-(63.5)-[UIButton:0x7fa209d093a0'LOGIN']   (active)>",
+    "<NSLayoutConstraint:0x60000028f640 V:[UITextField:0x7fa209c233d0]-(77)-[UIButton:0x7fa209d093a0'LOGIN']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60000028f640 V:[UITextField:0x7fa209c233d0]-(77)-[UIButton:0x7fa209d093a0'LOGIN']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.419934 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60000028f690 V:[UITextField:0x7fa209c233d0]-(63.5)-[UIButton:0x7fa209d093a0'LOGIN']   (active)>",
+    "<NSLayoutConstraint:0x60000028f500 V:[UITextField:0x7fa209c233d0]-(77)-[UIButton:0x7fa209d093a0'LOGIN']   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60000028f500 V:[UITextField:0x7fa209c233d0]-(77)-[UIButton:0x7fa209d093a0'LOGIN']   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.480166 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x608000293010 UILabel:0x7fa209c24b80'SIGN - IN'.width == 296   (active)>",
+    "<NSLayoutConstraint:0x60000028fc80 UILabel:0x7fa209c24b80'SIGN - IN'.leading == UIView:0x7fa209c24800.leadingMargin + 22   (active)>",
+    "<NSLayoutConstraint:0x60000028fc30 UIView:0x7fa209c24800.trailingMargin == UILabel:0x7fa209c24b80'SIGN - IN'.trailing + 25   (active)>",
+    "<NSLayoutConstraint:0x60000028b9f0 'UIView-Encapsulated-Layout-Width' UIView:0x7fa209c24800.width == 414   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x608000293010 UILabel:0x7fa209c24b80'SIGN - IN'.width == 296   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.481114 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60800028dbb0 UITextField:0x7fa209c20930.width == 379   (active)>",
+    "<NSLayoutConstraint:0x60000028fa50 H:[UITextField:0x7fa209c20930]-(-4)-|   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<NSLayoutConstraint:0x60000028fa00 H:|-(0)-[UITextField:0x7fa209c20930]   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<NSLayoutConstraint:0x60000028b9f0 'UIView-Encapsulated-Layout-Width' UIView:0x7fa209c24800.width == 414   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60800028dbb0 UITextField:0x7fa209c20930.width == 379   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.500562 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x6080002904f0 UITextField:0x7fa209c233d0.width == 379   (active)>",
+    "<NSLayoutConstraint:0x60000028f870 H:|-(0)-[UITextField:0x7fa209c233d0]   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<NSLayoutConstraint:0x60000028f820 H:[UITextField:0x7fa209c233d0]-(-4)-|   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<NSLayoutConstraint:0x60000028b9f0 'UIView-Encapsulated-Layout-Width' UIView:0x7fa209c24800.width == 414   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6080002904f0 UITextField:0x7fa209c233d0.width == 379   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.503085 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60000028cda0 UIButton:0x7fa209d093a0'LOGIN'.width == 377   (active)>",
+    "<NSLayoutConstraint:0x60000028f6e0 H:|-(0)-[UIButton:0x7fa209d093a0'LOGIN']   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<NSLayoutConstraint:0x60000028f5f0 H:[UIButton:0x7fa209d093a0'LOGIN']-(0)-|   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<NSLayoutConstraint:0x60000028b9f0 'UIView-Encapsulated-Layout-Width' UIView:0x7fa209c24800.width == 414   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60000028cda0 UIButton:0x7fa209d093a0'LOGIN'.width == 377   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:32.504523 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<_UILayoutSupportConstraint:0x60000028ccb0 _UILayoutGuide:0x7fa209d04aa0.height == 0   (active)>",
+    "<_UILayoutSupportConstraint:0x60000028cc60 V:|-(0)-[_UILayoutGuide:0x7fa209d04aa0]   (active, names: '|':UIView:0x7fa209c24800 )>",
+    "<_UILayoutSupportConstraint:0x60000028fff0 _UILayoutGuide:0x7fa209d0c360.height == 0   (active)>",
+    "<_UILayoutSupportConstraint:0x60000028ff50 _UILayoutGuide:0x7fa209d0c360.bottom == UIView:0x7fa209c24800.bottom   (active)>",
+    "<NSLayoutConstraint:0x608000293060 UILabel:0x7fa209c24b80'SIGN - IN'.height == 57   (active)>",
+    "<NSLayoutConstraint:0x60800028db60 UITextField:0x7fa209c20930.height == 30   (active)>",
+    "<NSLayoutConstraint:0x60000028cbc0 UIButton:0x7fa209d093a0'LOGIN'.height == 56   (active)>",
+    "<NSLayoutConstraint:0x60000028faf0 V:[_UILayoutGuide:0x7fa209d04aa0]-(8)-[UILabel:0x7fa209c24b80'SIGN - IN']   (active)>",
+    "<NSLayoutConstraint:0x60000028f9b0 V:[UILabel:0x7fa209c24b80'SIGN - IN']-(39)-[UITextField:0x7fa209c20930]   (active)>",
+    "<NSLayoutConstraint:0x60000028f5a0 V:[UITextField:0x7fa209c20930]-(104)-[UIButton:0x7fa209d093a0'LOGIN']   (active)>",
+    "<NSLayoutConstraint:0x60000028f410 V:[UIButton:0x7fa209d093a0'LOGIN']-(305)-[_UILayoutGuide:0x7fa209d0c360]   (active)>",
+    "<NSLayoutConstraint:0x60000028ba90 'UIView-Encapsulated-Layout-Height' UIView:0x7fa209c24800.height == 736   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x608000293060 UILabel:0x7fa209c24b80'SIGN - IN'.height == 57   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:34.108141 Giv[12350:514332] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /Users/akashkejriwal/Library/Developer/CoreSimulator/Devices/7E6C4CD2-0F3D-4FD3-8137-5433082E037D/data/Containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2016-12-09 11:24:34.125975 Giv[12350:514332] [MC] Reading from private effective user settings.
+2016-12-09 11:24:34.824374 Giv[12350:514332] [Common] _BSMachError: port 7b03; (os/kern) invalid capability (0x14) "Unable to insert COPY_SEND"
+2016-12-09 11:24:34.824998 Giv[12350:514332] [Common] _BSMachError: port 7b03; (os/kern) invalid name (0xf) "Unable to deallocate send right"
+2016-12-09 11:24:41.040726 Giv[12350:514465] [] ____nwlog_simulate_crash_inner_block_invoke dlopen CrashReporterSupport failed
+2016-12-09 11:24:41.041487 Giv[12350:514465] [] __nwlog_err_simulate_crash simulate crash failed "nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available"
+2016-12-09 11:24:41.042845 Giv[12350:514465] [] nw_socket_set_common_sockopts setsockopt SO_NOAPNFALLBK failed: [42] Protocol not available, dumping backtrace:
+        [x86_64] libnetcore-856.20.4
+    0   libsystem_network.dylib             0x0000000112bfb682 __nw_create_backtrace_string + 123
+    1   libnetwork.dylib                    0x0000000112ed8932 nw_socket_add_input_handler + 3100
+    2   libnetwork.dylib                    0x0000000112eb64f4 nw_endpoint_flow_attach_protocols + 3768
+    3   libnetwork.dylib                    0x0000000112eb5511 nw_endpoint_flow_setup_socket + 563
+    4   libnetwork.dylib                    0x0000000112eb4270 -[NWConcrete_nw_endpoint_flow startWithHandler:] + 2612
+    5   libnetwork.dylib                    0x0000000112ecf44d nw_endpoint_handler_path_change + 1261
+    6   libnetwork.dylib                    0x0000000112ecee7c nw_endpoint_handler_start + 570
+    7   libdispatch.dylib                   0x0000000112978980 _dispatch_call_block_and_release + 12
+    8   libdispatch.dylib                   0x00000001129a20cd _dispatch_client_callout + 8
+    9   libdispatch.dylib                   0x000000011297fe6b _dispatch_queue_serial_drain + 236
+    10  libdispatch.dylib                   0x0000000112980b9f _dispatch_queue_invoke + 1073
+    11  libdispatch.dylib                   0x00000001129833b7 _dispatch_root_queue_drain + 720
+    12  libdispatch.dylib                   0x000000011298308b _dispatch_worker_thread3 + 123
+    13  libsystem_pthread.dylib             0x0000000112d4b4de _pthread_wqthread + 1129
+    14  libsystem_pthread.dylib             0x0000000112d49341 start_wqthread + 13
+[PlistManager] An Action has been performed. You can check if it went ok by taking a look at the current content of the plist file: 
+[PlistManager] Optional({
+    token = "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ODRhZDRkMWI5YWI1NDEyZmI4MGIxZjkiLCJmaXJzdE5hbWUiOiJTaWQiLCJsYXN0TmFtZSI6Ik1hbGxhZGkiLCJlbWFpbCI6InNjbUBnbWFpbC5jb20iLCJyb2xlIjoiRG9ub3IiLCJ0cmFuc2FjdGlvbnMiOlt7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjI0MSIsImNoYW5nZSI6IjAuNDgiLCJhbW91bnQiOiI5LjUyIiwibmFtZSI6IkFjb3JucyBJbnZlc3RpbmcgVHJhbnNmZXIgMTIwNzE2IFJTRk1UNSBTaWRkaGFyZGhhIE1hbGxhZGkifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjI0MCIsImNoYW5nZSI6IjAuOSIsImFtb3VudCI6IjYuMSIsIm5hbWUiOiJBY29ybnMgSW52ZXN0aW5nIFRyYW5zZmVyIDEyMDYxNiBKSEZDVDUgU2lkZGhhcmRoYSBNYWxsYWRpIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyM2YiLCJjaGFuZ2UiOiIwLjgyIiwiYW1vdW50IjoiMTUuMTgiLCJuYW1lIjoiR3J1Ykh1YiJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjNlIiwiY2hhbmdlIjoiMSIsImFtb3VudCI6Ii0xNTAwIiwibmFtZSI6IlRSQU5TRkVSIEZST00gTUFMTEFESSBSQUpBU1JJTklWQVMgT04gMTIvMDMgUkVGICMgUFBFOFFOTTlRWiJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjNkIiwiY2hhbmdlIjoiMC4zNSIsImFtb3VudCI6IjE0LjY1IiwibmFtZSI6IkdydWJIdWIifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIzYyIsImNoYW5nZSI6IjEiLCJhbW91bnQiOiIzIiwibmFtZSI6IkFDVEJMVUUqUFJPR1JFU1NGT1JBTEwifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIzYiIsImNoYW5nZSI6IjAuNTkiLCJhbW91bnQiOiI2LjQxIiwibmFtZSI6IlJpdGUgQWlkIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyM2EiLCJjaGFuZ2UiOiIwLjczIiwiYW1vdW50IjoiNy4yNyIsIm5hbWUiOiJMeWZ0In0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMzkiLCJjaGFuZ2UiOiIwLjIiLCJhbW91bnQiOiI0Mi44IiwibmFtZSI6IkdJREFTLVRIT01QU09OUyBGTE9XRVJTIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMzgiLCJjaGFuZ2UiOiIwLjUiLCJhbW91bnQiOiIzMi41IiwibmFtZSI6IlVuaW9uIEdyaWxsIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMzciLCJjaGFuZ2UiOiIwLjM0IiwiYW1vdW50IjoiNy42NiIsIm5hbWUiOiJHb29nbGUgQXBwcyBmb3IgV29yayJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjM2IiwiY2hhbmdlIjoiMSIsImFtb3VudCI6IjEwMCIsIm5hbWUiOiJXaXNlQmFueWFuIFNlY3VyIEFDSCBEZWMgMDIgMjAxNjEyMDE0MzcyNiBTSURESEFSREhBIE1BTExBREkifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIzNSIsImNoYW5nZSI6IjAuMzUiLCJhbW91bnQiOiIxNC42NSIsIm5hbWUiOiJHcnViSHViIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMzQiLCJjaGFuZ2UiOiIxIiwiYW1vdW50IjoiNSIsIm5hbWUiOiJTVU1PRlVTIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMzMiLCJjaGFuZ2UiOiIxIiwiYW1vdW50IjoiMyIsIm5hbWUiOiJQQVlQQUwgSU5TVCBYRkVSIDE2MTIwMSBQQVRSRU9OIFNJRERIQVJESEEgTUFMTEFESSJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjMyIiwiY2hhbmdlIjoiMC45OSIsImFtb3VudCI6IjcuMDEiLCJuYW1lIjoiQWNvcm5zIEludmVzdGluZyBUcmFuc2ZlciAxMTMwMTYgRlhCUlI1IFNpZGRoYXJkaGEgTWFsbGFkaSJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjMxIiwiY2hhbmdlIjoiMSIsImFtb3VudCI6IjEwMCIsIm5hbWUiOiJBU1BJUkFUSU9OIEZVTkRTIEFTUC1BUCAzNjAxMDAxMzU5ODIgU0lEREhBUkRIQSBNQUxMQURJIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMzAiLCJjaGFuZ2UiOiIwLjE2IiwiYW1vdW50IjoiOC44NCIsIm5hbWUiOiJBY29ybnMgSW52ZXN0aW5nIFRyYW5zZmVyIDExMjgxNiBaU0w2UjUgU2lkZGhhcmRoYSBNYWxsYWRpIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMmYiLCJjaGFuZ2UiOiIwLjQzIiwiYW1vdW50IjoiNzIuNTciLCJuYW1lIjoiR2lhbnQgRWFnbGUifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIyZSIsImNoYW5nZSI6IjAuMjMiLCJhbW91bnQiOiI3Ljc3IiwibmFtZSI6IlViZXIifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIyZCIsImNoYW5nZSI6IjAuNzMiLCJhbW91bnQiOiI3LjI3IiwibmFtZSI6Ikx5ZnQifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIyYyIsImNoYW5nZSI6IjAuMDciLCJhbW91bnQiOiI3LjkzIiwibmFtZSI6Ikx5ZnQifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIyYiIsImNoYW5nZSI6IjAuOCIsImFtb3VudCI6IjE4LjIiLCJuYW1lIjoiR29sZGVuIFBhbGFjZSBCdWZmZXQifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIyYSIsImNoYW5nZSI6IjAuMDEiLCJhbW91bnQiOiIwLjk5IiwibmFtZSI6ImlUdW5lcyJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjI5IiwiY2hhbmdlIjoiMC4xNSIsImFtb3VudCI6IjYzLjg1IiwibmFtZSI6IktFTk5FRFkgU1BBQ0UgQ0VOVEVSIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMjgiLCJjaGFuZ2UiOiIwLjIzIiwiYW1vdW50IjoiMTQuNzciLCJuYW1lIjoiR3J1Ykh1YiJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjI3IiwiY2hhbmdlIjoiMSIsImFtb3VudCI6IjciLCJuYW1lIjoiQWNvcm5zIEludmVzdGluZyBUcmFuc2ZlciAxMTIzMTYgRDRHUFE1IFNpZGRoYXJkaGEgTWFsbGFkaSJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjI2IiwiY2hhbmdlIjoiMC43NSIsImFtb3VudCI6IjE1LjI1IiwibmFtZSI6IkdydWJIdWIifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIyNSIsImNoYW5nZSI6IjAuMjUiLCJhbW91bnQiOiIzMC43NSIsIm5hbWUiOiJMeWZ0In0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMjQiLCJjaGFuZ2UiOiIwLjQ3IiwiYW1vdW50IjoiMTEuNTMiLCJuYW1lIjoiQ1VSUklUTyBCVVJSSVRPUyBXSVRIT1VUIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMjMiLCJjaGFuZ2UiOiIwLjc1IiwiYW1vdW50IjoiMTUuMjUiLCJuYW1lIjoiR3J1Ykh1YiJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjIyIiwiY2hhbmdlIjoiMC4xNiIsImFtb3VudCI6IjEzNjcuODQiLCJuYW1lIjoiT05MSU5FIFRSQU5TRkVSIFJFRiAjSUJFUjdTUVg2QyBUTyBDT0xMRUdFIENBUkQgWFhYWFhYWFhYWFhYNTEyNyBPTiAxMS8xOS8xNiJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjIxIiwiY2hhbmdlIjoiMC4zNSIsImFtb3VudCI6IjE0LjY1IiwibmFtZSI6IkdydWJIdWIifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIyMCIsImNoYW5nZSI6IjAuMDEiLCJhbW91bnQiOiIyOS45OSIsIm5hbWUiOiJMSU5LRURJTi0yMjIqMDQ0OTE3NSBMSU5LRURJTi5DT00ifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIxZiIsImNoYW5nZSI6IjAuNzMiLCJhbW91bnQiOiI3LjI3IiwibmFtZSI6Ikx5ZnQifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIxZSIsImNoYW5nZSI6IjAuOTUiLCJhbW91bnQiOiIxNi4wNSIsIm5hbWUiOiJVYmVyIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMWQiLCJjaGFuZ2UiOiIwLjM3IiwiYW1vdW50IjoiNy42MyIsIm5hbWUiOiJVYmVyIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMWMiLCJjaGFuZ2UiOiIwLjQyIiwiYW1vdW50IjoiOC41OCIsIm5hbWUiOiJDaGlwb3RsZSBNZXhpY2FuIEdyaWxsIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMWIiLCJjaGFuZ2UiOiIxIiwiYW1vdW50IjoiMjAiLCJuYW1lIjoiU3VwZXJjdXRzIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMWEiLCJjaGFuZ2UiOiIwLjg0IiwiYW1vdW50IjoiLTEzNjcuODQiLCJuYW1lIjoiT05MSU5FIFBBWU1FTlQifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIxOSIsImNoYW5nZSI6IjAuNzgiLCJhbW91bnQiOiIxNy4yMiIsIm5hbWUiOiJVYmVyIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMTgiLCJjaGFuZ2UiOiIwLjU5IiwiYW1vdW50IjoiNy40MSIsIm5hbWUiOiJBY29ybnMgSW52ZXN0aW5nIFRyYW5zZmVyIDExMTcxNiA0SldTUDUgU2lkZGhhcmRoYSBNYWxsYWRpIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMTciLCJjaGFuZ2UiOiIwLjU3IiwiYW1vdW50IjoiOC40MyIsIm5hbWUiOiJBY29ybnMgSW52ZXN0aW5nIFRyYW5zZmVyIDExMTYxNiBaN1lHUDUgU2lkZGhhcmRoYSBNYWxsYWRpIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMTYiLCJjaGFuZ2UiOiIwLjI2IiwiYW1vdW50IjoiMTAuNzQiLCJuYW1lIjoiQWNvcm5zIEludmVzdGluZyBUcmFuc2ZlciAxMTE2MTYgTDFZR1A1IFNpZGRoYXJkaGEgTWFsbGFkaSJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjE1IiwiY2hhbmdlIjoiMC43MSIsImFtb3VudCI6IjEzLjI5IiwibmFtZSI6IlBBWVBBTCBJTlNUIFhGRVIgMTYxMTE0IEtFVkFORE9ESElBIFNJRERIQVJESEEgTUFMTEFESSJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjE0IiwiY2hhbmdlIjoiMC4wMSIsImFtb3VudCI6IjQuOTkiLCJuYW1lIjoiU3BvdGlmeSJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjEzIiwiY2hhbmdlIjoiMC45IiwiYW1vdW50IjoiOS4xIiwibmFtZSI6Ik5PT0RMRSBVQ0hJIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMTIiLCJjaGFuZ2UiOiIxIiwiYW1vdW50IjoiMTAwIiwibmFtZSI6IkFTUElSQVRJT04gRlVORFMgQVNQLUFQIDM2MzEwMDEzNTk4MiBTSURESEFSREhBIE1BTExBREkifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIxMSIsImNoYW5nZSI6IjAuMzQiLCJhbW91bnQiOiI4LjY2IiwibmFtZSI6IkNBUk5FR0lFIE1FTExPTiBCT09LU1QgUElUVFNCVVJHIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMTAiLCJjaGFuZ2UiOiIwLjkzIiwiYW1vdW50IjoiMTMuMDciLCJuYW1lIjoiVWJlciJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjBmIiwiY2hhbmdlIjoiMC43MyIsImFtb3VudCI6IjcuMjciLCJuYW1lIjoiTHlmdCJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjBlIiwiY2hhbmdlIjoiMC43NiIsImFtb3VudCI6IjQuMjQiLCJuYW1lIjoiS3dpayBGaWxsIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMGQiLCJjaGFuZ2UiOiIwLjk0IiwiYW1vdW50IjoiMTguMDYiLCJuYW1lIjoiQUwgTUFDJ1MgQlVGRkVUIC0gREVMVSBOSUFHQVJBIEZBTExTQ0QifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIwYyIsImNoYW5nZSI6IjAuMyIsImFtb3VudCI6IjkyLjciLCJuYW1lIjoiWmlwY2FyIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMGIiLCJjaGFuZ2UiOiIxIiwiYW1vdW50IjoiMSIsIm5hbWUiOiJGT1JFSUdOIENVUlJFTkNZIENPTlZFUlNJT04gRkVFIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMGEiLCJjaGFuZ2UiOiIwLjU4IiwiYW1vdW50IjoiMzMuNDIiLCJuYW1lIjoiSE9STkJMT1dFUiBOSUFHQVJBIENSVSBOSUFHQVJBIEZBTExTQ0QifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIwOSIsImNoYW5nZSI6IjAuNzkiLCJhbW91bnQiOiIxLjIxIiwibmFtZSI6IkZPUkVJR04gQ1VSUkVOQ1kgQ09OVkVSU0lPTiBGRUUifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIwOCIsImNoYW5nZSI6IjAuOCIsImFtb3VudCI6IjE1LjIiLCJuYW1lIjoiWmlwY2FyIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMDciLCJjaGFuZ2UiOiIwLjciLCJhbW91bnQiOiI0MC4zIiwibmFtZSI6IlNIT1BQRVInUyBEUlVHIE1BUlQgIzE0MTFOSUFHQVJBIEZBTExTQ0QifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIwNiIsImNoYW5nZSI6IjAuNjciLCJhbW91bnQiOiIwLjMzIiwibmFtZSI6IkZPUkVJR04gQ1VSUkVOQ1kgQ09OVkVSU0lPTiBGRUUifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjIwNSIsImNoYW5nZSI6IjAuODUiLCJhbW91bnQiOiIxMS4xNSIsIm5hbWUiOiJOIEZBTExTVklFVyBDQVNJTk8gUkVTIEZCTklBR0FSQSBGQUxMU0NEIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMDQiLCJjaGFuZ2UiOiIwLjY0IiwiYW1vdW50IjoiMC4zNiIsIm5hbWUiOiJGT1JFSUdOIENVUlJFTkNZIENPTlZFUlNJT04gRkVFIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMDMiLCJjaGFuZ2UiOiIwLjExIiwiYW1vdW50IjoiMTEuODkiLCJuYW1lIjoiTiBGQUxMU1ZJRVcgQ0FTSU5PIFJFUyBGQk5JQUdBUkEgRkFMTFNDRCJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjAyIiwiY2hhbmdlIjoiMC45MyIsImFtb3VudCI6IjIuMDciLCJuYW1lIjoiRk9SRUlHTiBDVVJSRU5DWSBDT05WRVJTSU9OIEZFRSJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMjAxIiwiY2hhbmdlIjoiMC45NiIsImFtb3VudCI6IjY5LjA0IiwibmFtZSI6IktJTkdTIElOTiBORUFSIFRIRSBGQUwgTklBR0FSQSBGQUxMU0NEIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIyMDAiLCJjaGFuZ2UiOiIwLjciLCJhbW91bnQiOiIyLjMiLCJuYW1lIjoiRk9SRUlHTiBDVVJSRU5DWSBDT05WRVJTSU9OIEZFRSJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMWZmIiwiY2hhbmdlIjoiMC40OCIsImFtb3VudCI6Ijc2LjUyIiwibmFtZSI6IkNvbWZvcnQgSW5uIn0seyJfaWQiOiI1ODRhZDUwY2I5YWI1NDEyZmI4MGIxZmUiLCJjaGFuZ2UiOiIwLjE5IiwiYW1vdW50IjoiMTM1LjgxIiwibmFtZSI6IlppcGNhciJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMWZkIiwiY2hhbmdlIjoiMC4zMSIsImFtb3VudCI6IjIuNjkiLCJuYW1lIjoiVEEgIzIxNSBIQVJCT1JDUkVFSyJ9LHsiX2lkIjoiNTg0YWQ1MGNiOWFiNTQxMmZiODBiMWZjIiwiY2hhbmdlIjoiMC40MiIsImFtb3VudCI6IjEwLjU4IiwibmFtZSI6IlRBICMyMTUgSEFSQk9SQ1JFRUsgRkEifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjFmYiIsImNoYW5nZSI6IjAuMDEiLCJhbW91bnQiOiIyLjk5IiwibmFtZSI6IlRBICMyMTUgSEFSQk9SQ1JFRUsgUkUifSx7Il9pZCI6IjU4NGFkNTBjYjlhYjU0MTJmYjgwYjFmYSIsImNoYW5nZSI6IjAuNyIsImFtb3VudCI6IjMuMyIsIm5hbWUiOiJBQ1RCTFVFKlZvdGUuT3JnIGFjdGJsdWVjYy5jb21NQSJ9XSwiZG9uYXRpb25zIjpbXSwic3BhcmVDaGFuZ2UiOjQyLjc3MDAwMDAwMDAwMDAyLCJpYXQiOjE0ODEzMDA2ODAsImV4cCI6MTQ4MTMxMDc2MH0.KtFigT3XncKUb06qhphJaZ9oJ4VT02GL4qqWff44a20";
+})
+vdl
+[PlistManager] Found the Item that we were looking for for key: [token]
+test2
+2016-12-09 11:24:57.209454 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60800029d100 UILabel:0x7fa209c4b810'+'.firstBaseline == UILabel:0x7fa209c48ab0'SUM'.firstBaseline   (active)>",
+    "<NSLayoutConstraint:0x60800029d150 UILabel:0x7fa209c4b810'+'.centerY == UITableViewCellContentView:0x7fa209d551d0.centerY   (active)>",
+    "<NSLayoutConstraint:0x60800029a450 UILabel:0x7fa209c4b810'+'.lastBaseline == UILabel:0x7fa209c48ab0'SUM'.lastBaseline   (active)>",
+    "<NSLayoutConstraint:0x60800029a3b0 UILabel:0x7fa209c48ab0'SUM'.top == UITableViewCellContentView:0x7fa209d551d0.topMargin   (active)>",
+    "<NSLayoutConstraint:0x60800029a310 V:[UILabel:0x7fa209c48ab0'SUM']-(0)-|   (active, names: '|':UITableViewCellContentView:0x7fa209d551d0 )>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60800029d100 UILabel:0x7fa209c4b810'+'.firstBaseline == UILabel:0x7fa209c48ab0'SUM'.firstBaseline   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:57.210236 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60800029a3b0 UILabel:0x7fa209c48ab0'SUM'.top == UITableViewCellContentView:0x7fa209d551d0.topMargin   (active)>",
+    "<NSLayoutConstraint:0x608000292bb0 V:|-(0)-[UILabel:0x7fa209c48ab0'SUM']   (active, names: '|':UITableViewCellContentView:0x7fa209d551d0 )>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60800029a3b0 UILabel:0x7fa209c48ab0'SUM'.top == UITableViewCellContentView:0x7fa209d551d0.topMargin   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2016-12-09 11:24:57.210903 Giv[12350:514332] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x60800029a310 V:[UILabel:0x7fa209c48ab0'SUM']-(0)-|   (active, names: '|':UITableViewCellContentView:0x7fa209d551d0 )>",
+    "<NSLayoutConstraint:0x608000292cf0 UITableViewCellContentView:0x7fa209d551d0.bottomMargin == UILabel:0x7fa209c48ab0'SUM'.bottom - 16   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x608000292cf0 UITableViewCellContentView:0x7fa209d551d0.bottomMargin == UILabel:0x7fa209c48ab0'SUM'.bottom - 16   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+0
+fatal error: Index out of range

@@ -78,8 +78,8 @@ class PlaidViewController: UIViewController, WKNavigationDelegate {
                 
             case "connected"?:
                 auth.authCallback(publicToken: queryParams["public_token"]!)
-                self.dismiss(animated: true, completion: nil)
-                
+                performSegue(withIdentifier: "toHome", sender: nil)
+
                 // Parse data passed from Link into a dictionary
                 // This includes the public_token as well as account and institution metadata
                 print("Public Token: \(queryParams["public_token"])");

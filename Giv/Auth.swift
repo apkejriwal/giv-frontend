@@ -37,17 +37,17 @@ class Auth {
             "Accept": "application/json"
         ]
         
+        print("getUser")
+        
         Alamofire.request(urlString, method: .get, parameters: nil, encoding: URLEncoding.default, headers: headers).responseJSON { response in
             if let JSON = response.result.value {
                 print("success json transactions")
                 let JSONResponse = JSON as! NSDictionary
                 let list_transactions = JSONResponse["transactions"]!
                 completion(list_transactions as! [[String : String]])
-
             }
         }
     }
-    
     func getCharities(completion: @escaping ([String]) -> Void) {
         
         let urlString = "http://128.237.165.19:3000/api/listcharities"
