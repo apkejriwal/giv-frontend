@@ -28,6 +28,13 @@ class Auth {
             }
         }
     }
+    
+    func updateBalance() {
+        let urlString = "http://128.237.165.19:3000/api/auth/makedonation"
+        Alamofire.request(urlString, method: .post, parameters: nil, encoding: URLEncoding.default)
+    }
+
+    
     func getUserTransactions(completion: @escaping ([[String : String]]) -> Void) {
         
         let urlString = "http://128.237.165.19:3000/api/fetchtransactions"
@@ -48,6 +55,26 @@ class Auth {
             }
         }
     }
+    
+    func getBalance(completion: @escaping (String) -> Void) {
+        
+        let urlString = "http://128.237.165.19:3000/api/fetchtransactions"
+        
+        let headers: HTTPHeaders = [
+            "Authorization": PlistManager.sharedInstance.getValueForKey(key: "token")! as! String,
+            "Accept": "application/json"
+        ]
+        
+        Alamofire.request(urlString, method: .get, parameters: nil, encoding: URLEncoding.default, headers: headers).responseJSON { response in
+            if let JSON = response.result.value {
+                print("success getBalance")
+                let JSONResponse = JSON as! NSDictionary
+                let final_balance = JSONResponse["spareChange"]!
+                completion(final_balance as! String)
+            }
+        }
+    }
+    
     func getCharities(completion: @escaping ([String]) -> Void) {
         
         let urlString = "http://128.237.165.19:3000/api/listcharities"
