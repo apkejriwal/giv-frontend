@@ -188,7 +188,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9f0-PX-D0w" kind="push" id="89p-h5-7el"/>
+                                    <segue destination="9f0-PX-D0w" kind="modal" id="89p-h5-7el"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WELCOME TO " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDv-ww-ZbM">
@@ -295,7 +295,7 @@
                                 </state>
                                 <connections>
                                     <action selector="buttonClickedWithSender:" destination="9f0-PX-D0w" eventType="touchUpInside" id="8cN-gg-3E3"/>
-                                    <segue destination="9kZ-ZC-n25" kind="push" id="6o5-5c-ne8"/>
+                                    <segue destination="9kZ-ZC-n25" kind="modal" id="6o5-5c-ne8"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CHARITY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3QG-S8-yvz">
@@ -556,10 +556,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="nNb-Rb-qZ8"/>
+                    <connections>
+                        <segue destination="CVd-42-Wl7" kind="modal" identifier="toAuthorize" id="6al-8S-57n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vjF-VQ-DY8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4586" y="-453"/>
+            <point key="canvasLocation" x="4586" y="-467"/>
         </scene>
         <!--IntermediateAuthViewController-->
         <scene sceneID="Vbq-nD-jC2">
@@ -618,7 +621,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zWV-3d-eU1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5069" y="-452"/>
+            <point key="canvasLocation" x="5069" y="-467"/>
         </scene>
         <!--Plaid View Controller-->
         <scene sceneID="T3u-Ve-UdH">
@@ -648,7 +651,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MU8-c6-Uk5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5545.5" y="-451.5"/>
+            <point key="canvasLocation" x="5541" y="-466"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="Ivz-ga-0wF">
@@ -958,6 +961,7 @@
         <!--Login Navigation View Controller-->
         <scene sceneID="d2p-xi-Ody">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qSS-Sr-IAv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Z5P-2e-BiV" customClass="LoginNavigationViewController" customModule="Giv" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="FTr-m6-0R8">
@@ -969,7 +973,6 @@
                         <segue destination="fVG-ZU-Wug" kind="relationship" relationship="rootViewController" id="gpq-Q5-eMf"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qSS-Sr-IAv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2499.5" y="-104.5"/>
         </scene>
@@ -1011,7 +1014,7 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="uG2-w2-na9"/>
+        <segue reference="gpq-Q5-eMf"/>
         <segue reference="6o5-5c-ne8"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>

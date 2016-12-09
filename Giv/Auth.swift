@@ -28,10 +28,10 @@ class Auth {
             }
         }
     }
-    func getUserTransactions() {
+    func getUserTransactions(completion: @escaping ([[String : String]]) -> Void) {
         
-        let urlString = ""
-        
+        let urlString = "http://128.237.165.19:3000/api/fetchtransactions"
+
         let headers: HTTPHeaders = [
             "Authorization": PlistManager.sharedInstance.getValueForKey(key: "token")! as! String,
             "Accept": "application/json"
@@ -41,8 +41,27 @@ class Auth {
             if let JSON = response.result.value {
                 print("success json transactions")
                 let JSONResponse = JSON as! NSDictionary
-                print("JSON BELOW transactions")
-                print(JSON)
+                let list_transactions = JSONResponse["transactions"]!
+                completion(list_transactions as! [[String : String]])
+
+            }
+        }
+    }
+    
+    func getCharities(completion: @escaping ([String]) -> Void) {
+        
+        let urlString = "http://128.237.165.19:3000/api/listcharities"
+        
+        let headers: HTTPHeaders = [
+            "Authorization": PlistManager.sharedInstance.getValueForKey(key: "token")! as! String,
+            "Accept": "application/json"
+        ]
+        
+        Alamofire.request(urlString, method: .get, parameters: nil, encoding: URLEncoding.default, headers: headers).responseJSON { response in
+            if let JSON = response.result.value {
+                let JSONResponse = JSON as! NSDictionary
+                let list_charities = JSONResponse["charities"]!
+                completion((list_charities as! [String]))
             }
         }
     }
@@ -94,24 +113,6 @@ class Auth {
                 let outcome = JSONResponse["result"]!
                 print("outcome authCallBack")
                 print(outcome)
-            }
-        }
-    }
-    
-    func getCharities(completion: @escaping ([String]) -> Void) {
-        
-        let urlString = "http://128.237.165.19:3000/api/listcharities"
-        
-        let headers: HTTPHeaders = [
-            "Authorization": PlistManager.sharedInstance.getValueForKey(key: "token")! as! String,
-            "Accept": "application/json"
-        ]
-        
-        Alamofire.request(urlString, method: .get, parameters: nil, encoding: URLEncoding.default, headers: headers).responseJSON { response in
-            if let JSON = response.result.value {
-                let JSONResponse = JSON as! NSDictionary
-                let list_charities = JSONResponse["charities"]!
-                completion((list_charities as! [String]))
             }
         }
     }

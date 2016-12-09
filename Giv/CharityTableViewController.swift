@@ -24,7 +24,6 @@ class CharityTableViewController: UITableViewController {
     func setCharity(_ charities: [String]) {
         let finalCharity = charities
         self.charityNames = finalCharity
-        print(self.charityNames)
         do_table_refresh()
     }
     

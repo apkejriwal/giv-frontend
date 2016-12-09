@@ -42,8 +42,8 @@ class LinkViewController: UIViewController, WKNavigationDelegate {
     // generateLinkInitializationURL :: create the link.html url with query parameters
     func generateLinkInitializationURL() -> String {
         let config = [
-//            "key": "test_key",
-            "key": "3e5986e00a2b17261c3384a8c3e274",
+            "key": "test_key",
+//            "key": "3e5986e00a2b17261c3384a8c3e274",
             "product": "connect",
             "longtail": "true",
             "selectAccount": "true",
@@ -78,8 +78,8 @@ class LinkViewController: UIViewController, WKNavigationDelegate {
             case "connected"?:
                 
                 auth.connectCallback(publicToken: queryParams["public_token"]!)
+                performSegue(withIdentifier: "toAuthorize", sender: nil)
                 
-                self.dismiss(animated: true, completion: nil)
                 
                 // Parse data passed from Link into a dictionary
                 // This includes the public_token as well as account and institution metadata

@@ -19,30 +19,26 @@ extension Double {
 class TransactionTableViewController: UITableViewController {
     
     let auth = Auth()
-    var transactionNames = [String]()
-    var transactionCharges = [String]()
-    var transactionSums = [String]()
+//    var transactionNames = [String]()
+//    var transactionCharges = [String]()
+//    var transactionSums = [String]()
+    
+//    var data = [{String:String}]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        auth.getUserTransactions()
+        auth.getUserTransactions(completion: self.setLists as! (Any?) -> Void)
         
         tableView.backgroundView = UIImageView(image: UIImage(named: "blue_wallpaper-1"))
         
-        transactionNames = ["TACO BELL",
-                            "ABP",
-                            "ENTROPY ",
-                            "CVS",
-                            "GALLO", "TACO BELL",
-                            "ABP",
-                            "ENTROPY ",
-                            "CVS",
-                            "GALLO"]
-        
-        transactionCharges = ["2.15", "2.50", "3.81", "1.91", "1.90", "2.15", "2.50", "3.81", "1.91", "1.90"]
-        transactionSums    = ["0.85", "0.50", "0.19", "0.09", "0.01", "0.85", "0.50", "0.19", "0.09", "0.01"]
-        }
+    }
     
+    func setLists(_ information: [[String : String]]) {
+        print("information below")
+        print(information)
+        do_table_refresh()
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -56,7 +52,9 @@ class TransactionTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return transactionNames.count
+//        return transactionNames.count
+//        return data.count
+        return 1
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -68,9 +66,13 @@ class TransactionTableViewController: UITableViewController {
         cell.layer.borderWidth = 1.5
         cell.layer.borderColor = UIColor.white.cgColor
                 
-        cell.transactionCompany.text = transactionNames[row]
-        cell.transactionCharge.text = transactionCharges[row]
-        cell.transactionSum.text = transactionSums[row]
+//        cell.transactionCompany.text = data[row]
+//        cell.transactionCharge.text = transactionCharges[row]
+//        cell.transactionSum.text = transactionSums[row]
                return cell
+    }
+    
+    func do_table_refresh() {
+        self.tableView.reloadData()
     }
 }
