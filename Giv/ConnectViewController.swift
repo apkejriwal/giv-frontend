@@ -2,7 +2,7 @@ import UIKit
 import WebKit
 import Alamofire
 
-class LinkViewController: UIViewController, WKNavigationDelegate {
+class ConnectViewController: UIViewController, WKNavigationDelegate {
     
     @IBOutlet var containerView : UIView? = nil
     

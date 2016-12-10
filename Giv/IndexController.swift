@@ -1,5 +1,5 @@
 //
-//  IndexController.swift
+//  ThirdViewController.swift
 //  Giv
 //
 //  Created by Akash Kejriwal on 12/4/16.
@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-class IndexController: UIViewController {
+class FourthViewController: UIViewController {
     
     let auth = Auth()
     var finalBalance = ""

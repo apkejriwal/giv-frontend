@@ -19,7 +19,7 @@
         <!--USER PROFILE | SETTINGS-->
         <scene sceneID="fKE-64-miv">
             <objects>
-                <viewController id="J12-Rx-tvf" customClass="ThirdViewController" customModule="Giv" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="J12-Rx-tvf" customClass="SettingsController" customModule="Giv" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YAP-jZ-L1t"/>
                         <viewControllerLayoutGuide type="bottom" id="Pe5-1R-W5f"/>
@@ -529,10 +529,10 @@
             </objects>
             <point key="canvasLocation" x="4713.5" y="-466.5"/>
         </scene>
-        <!--Link View Controller-->
+        <!--Connect View Controller-->
         <scene sceneID="oGo-qd-MP8">
             <objects>
-                <viewController id="HJw-p1-WZk" customClass="LinkViewController" customModule="Giv" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HJw-p1-WZk" customClass="ConnectViewController" customModule="Giv" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3IS-hT-j5p"/>
                         <viewControllerLayoutGuide type="bottom" id="BL4-uW-qmh"/>
@@ -616,10 +616,10 @@
             </objects>
             <point key="canvasLocation" x="5655.5" y="-467.5"/>
         </scene>
-        <!--Plaid View Controller-->
+        <!--Auth View Controller-->
         <scene sceneID="T3u-Ve-UdH">
             <objects>
-                <viewController id="Tg6-ue-Cqh" customClass="PlaidViewController" customModule="Giv" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Tg6-ue-Cqh" customClass="AuthViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0KS-aS-rmT"/>
                         <viewControllerLayoutGuide type="bottom" id="71H-N8-g2J"/>
@@ -758,10 +758,10 @@
             </objects>
             <point key="canvasLocation" x="4247.5" y="255.5"/>
         </scene>
-        <!--Fourth View Controller-->
+        <!--Index Controller-->
         <scene sceneID="a4I-vP-tLo">
             <objects>
-                <viewController id="C7T-2x-kwK" customClass="FourthViewController" customModule="Giv" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="C7T-2x-kwK" customClass="IndexController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BEH-jN-IeW"/>
                         <viewControllerLayoutGuide type="bottom" id="EyW-yK-RRk"/>

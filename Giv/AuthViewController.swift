@@ -2,7 +2,7 @@ import UIKit
 import WebKit
 import Alamofire
 
-class PlaidViewController: UIViewController, WKNavigationDelegate {
+class AuthViewController: UIViewController, WKNavigationDelegate {
     
     @IBOutlet var containerView : UIView? = nil
     
