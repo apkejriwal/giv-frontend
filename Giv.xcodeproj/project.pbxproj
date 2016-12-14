@@ -34,6 +34,8 @@
 		9DE2470D1E01935B009B17E3 /* ConnectViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2470C1E01935B009B17E3 /* ConnectViewControllerTests.swift */; };
 		9DE2470F1E019A0F009B17E3 /* AuthViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2470E1E019A0F009B17E3 /* AuthViewControllerTests.swift */; };
 		9DE247131E019BDA009B17E3 /* IndexControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE247121E019BDA009B17E3 /* IndexControllerTests.swift */; };
+		9DE247151E01A126009B17E3 /* SettingControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE247141E01A126009B17E3 /* SettingControllerTests.swift */; };
+		9DE247191E01A48E009B17E3 /* AuthModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE247181E01A48E009B17E3 /* AuthModelTests.swift */; };
 		D283AA9524B6CC2FEE1AF5CF /* Pods_Giv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206CF447BF1E5246A753A098 /* Pods_Giv.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +92,8 @@
 		9DE2470C1E01935B009B17E3 /* ConnectViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewControllerTests.swift; sourceTree = "<group>"; };
 		9DE2470E1E019A0F009B17E3 /* AuthViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewControllerTests.swift; sourceTree = "<group>"; };
 		9DE247121E019BDA009B17E3 /* IndexControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexControllerTests.swift; sourceTree = "<group>"; };
+		9DE247141E01A126009B17E3 /* SettingControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingControllerTests.swift; sourceTree = "<group>"; };
+		9DE247181E01A48E009B17E3 /* AuthModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthModelTests.swift; path = ../Giv/AuthModelTests.swift; sourceTree = "<group>"; };
 		E555111261EFFCB8273976DD /* Pods-Giv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Giv/Pods-Giv.debug.xcconfig"; sourceTree = "<group>"; };
 		FE5199B30673692586484DB5 /* Pods-Giv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giv.release.xcconfig"; path = "Pods/Target Support Files/Pods-Giv/Pods-Giv.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -232,12 +236,14 @@
 			isa = PBXGroup;
 			children = (
 				9DDEF7531DF4185800382558 /* GivTests.swift */,
+				9DE247181E01A48E009B17E3 /* AuthModelTests.swift */,
 				9DDEF7551DF4185800382558 /* Info.plist */,
 				9D18AF841E01870600E303BB /* RegisterViewTests.swift */,
 				9DE2470A1E019260009B17E3 /* LoginViewControllerTests.swift */,
 				9DE2470E1E019A0F009B17E3 /* AuthViewControllerTests.swift */,
 				9DE2470C1E01935B009B17E3 /* ConnectViewControllerTests.swift */,
 				9DE247121E019BDA009B17E3 /* IndexControllerTests.swift */,
+				9DE247141E01A126009B17E3 /* SettingControllerTests.swift */,
 			);
 			path = GivTests;
 			sourceTree = "<group>";
@@ -463,7 +469,9 @@
 				9DE2470B1E019260009B17E3 /* LoginViewControllerTests.swift in Sources */,
 				9DDEF7541DF4185800382558 /* GivTests.swift in Sources */,
 				9DE2470F1E019A0F009B17E3 /* AuthViewControllerTests.swift in Sources */,
+				9DE247151E01A126009B17E3 /* SettingControllerTests.swift in Sources */,
 				9DE2470D1E01935B009B17E3 /* ConnectViewControllerTests.swift in Sources */,
+				9DE247191E01A48E009B17E3 /* AuthModelTests.swift in Sources */,
 				9DE247131E019BDA009B17E3 /* IndexControllerTests.swift in Sources */,
 				9D18AF851E01870600E303BB /* RegisterViewTests.swift in Sources */,
 			);

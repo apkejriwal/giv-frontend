@@ -57,8 +57,7 @@ class TransactionTableViewController: UITableViewController {
         
         cell.layer.borderWidth = 1.5
         cell.layer.borderColor = UIColor.white.cgColor
-        print(data.count)
-        
+      
         cell.transactionCompany.text = data[row]["name"]
         cell.transactionCharge.text = data[row]["amount"]
         cell.transactionSum.text = data[row]["change"]

@@ -20,7 +20,6 @@ class SettingController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
     @IBAction func logout(sender: UIButton) {
         // on logout, jwt is initialized to an empty string
         // user is then redirected to home page
