@@ -10,8 +10,7 @@ import Alamofire
 class Auth {
     
     func createUser(first_name: String, last_name:String, email:String, password:String, role:String ) {
-//          let urlString = "https://giv-server-xjjuuocpmh.now.sh/api/auth/register"
-        let urlString = "http://128.237.214.136:3000/api/auth/register"
+        let urlString = "https://giv-server-mksaevmwqj.now.sh/api/auth/register"
         
         let parameters: Parameters = [
             "email": email,
@@ -31,19 +30,16 @@ class Auth {
     }
     
     func updateBalance() {
-//        let urlString = "https://giv-server-xjjuuocpmh.now.sh/api/auth/makedonation"
-        let urlString = "http://128.237.214.136:3000/api/auth/makedonation"
+        let urlString = "https://giv-server-mksaevmwqj.now.sh/api/auth/makedonation"
+//        let urlString = "http://128.237.214.136:3000/api/auth/makedonation"
         Alamofire.request(urlString, method: .post, parameters: nil, encoding: URLEncoding.default)
     }
 
     
     func getUserTransactions(completion: @escaping ([[String : String]]) -> Void) {
         
-//        let urlString = "https://giv-server-xjjuuocpmh.now.sh/api/fetchtransactions"
-          let urlString = "http://128.237.214.136:3000/api/fetchtransactions"
-        
-
-
+        let urlString = "https://giv-server-mksaevmwqj.now.sh/api/fetchtransactions"
+ 
         let headers: HTTPHeaders = [
             "Authorization": PlistManager.sharedInstance.getValueForKey(key: "token")! as! String,
             "Accept": "application/json"
@@ -60,8 +56,7 @@ class Auth {
     
     func getBalance(completion: @escaping (String) -> Void) {
         
-//        let urlString = "https://giv-server-xjjuuocpmh.now.sh/api/fetchtransactions"
-        let urlString = "http://128.237.214.136:3000/api/fetchtransactions"
+        let urlString = "https://giv-server-mksaevmwqj.now.sh/api/fetchtransactions"
         
         let headers: HTTPHeaders = [
             "Authorization": PlistManager.sharedInstance.getValueForKey(key: "token")! as! String,
@@ -79,8 +74,7 @@ class Auth {
     
     func getCharities(completion: @escaping ([String]) -> Void) {
         
-//        let urlString = "https://giv-server-xjjuuocpmh.now.sh/api/listcharities"
-        let urlString = "http://128.237.214.136:3000/api/listcharities"
+        let urlString = "https://giv-server-mksaevmwqj.now.sh/api/listcharities"
         
         let headers: HTTPHeaders = [
             "Authorization": PlistManager.sharedInstance.getValueForKey(key: "token")! as! String,
@@ -97,8 +91,9 @@ class Auth {
     }
     
     func login(email:String, password:String) {
-//        let urlString = "https://giv-server-xjjuuocpmh.now.sh/api/auth/login"
-          let urlString = "http://128.237.214.136:3000/api/auth/login"
+        
+            let urlString = "https://giv-server-mksaevmwqj.now.sh/api/auth/login"
+//          let urlString = "http://128.237.214.136:3000/api/auth/login"
         
         let parameters: Parameters = [
             "email": email,
@@ -106,18 +101,12 @@ class Auth {
             ]
         
         Alamofire.request(urlString, method: .post, parameters: parameters, encoding: URLEncoding.default).responseJSON { response in
-            if let JSON = response.result.value {
-                let JSONResponse = JSON as! NSDictionary
-                let token = JSONResponse["token"]!
-                PlistManager.sharedInstance.saveValue(value: token as AnyObject, forKey: "token")
-            }
+
         }
     }
     
     func connectCallback(publicToken: String) {
-//        let urlString = "https://giv-server-xjjuuocpmh.now.sh/api/oauth/plaidconnectcallback?public_token=" + publicToken
-        
-        let urlString = "http://128.237.214.136:3000/api/oauth/plaidconnectcallback?public_token=" + publicToken
+        let urlString = "https://giv-server-mksaevmwqj.now.sh/api/oauth/plaidconnectcallback?public_token=" + publicToken
         
         let headers: HTTPHeaders = [
             "Authorization": PlistManager.sharedInstance.getValueForKey(key: "token")! as! String,
@@ -132,8 +121,8 @@ class Auth {
     }
     
     func authCallback(publicToken: String) {
-//        let urlString = "https://giv-server-xjjuuocpmh.now.sh/api/oauth/plaidauthcallback?public_token=" + publicToken
-        let urlString = "http://128.237.214.136:3000/api/oauth/plaidauthcallback?public_token=" + publicToken
+          let urlString = "https://giv-server-mksaevmwqj.now.sh/api/oauth/plaidauthcallback?public_token=" + publicToken
+
         
         let headers: HTTPHeaders = [
             "Authorization": PlistManager.sharedInstance.getValueForKey(key: "token")! as! String,
