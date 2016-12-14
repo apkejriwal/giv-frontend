@@ -12,7 +12,7 @@ import Alamofire
 class IndexController: UIViewController {
     
     let auth = Auth()
-    var finalBalance = ""
+    var finalBalance: String?
     
     @IBOutlet weak var balance: UILabel!
 
@@ -28,7 +28,12 @@ class IndexController: UIViewController {
     
     func renderBalance(_ balance_complete: String) {
         self.finalBalance = balance_complete
-        balance.text = self.finalBalance
+        if let finalText = self.finalBalance {
+            balance.text = finalText
+        }
+        else {
+            return
+        }
     }
     
     @IBAction func renderNewBalance(sender: UIButton) {
