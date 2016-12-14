@@ -8,8 +8,6 @@
 
 import UIKit
 
-var global_jwt = "global"
-
 class LandingViewController: UIViewController {
 
     override func viewDidLoad() {

@@ -19,7 +19,7 @@
         <!--USER PROFILE | SETTINGS-->
         <scene sceneID="fKE-64-miv">
             <objects>
-                <viewController id="J12-Rx-tvf" customClass="SettingsController" customModule="Giv" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="J12-Rx-tvf" customClass="SettingController" customModule="Giv" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YAP-jZ-L1t"/>
                         <viewControllerLayoutGuide type="bottom" id="Pe5-1R-W5f"/>
@@ -619,7 +619,7 @@
         <!--Auth View Controller-->
         <scene sceneID="T3u-Ve-UdH">
             <objects>
-                <viewController id="Tg6-ue-Cqh" customClass="AuthViewController" sceneMemberID="viewController">
+                <viewController id="Tg6-ue-Cqh" customClass="AuthViewController" customModule="Giv" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0KS-aS-rmT"/>
                         <viewControllerLayoutGuide type="bottom" id="71H-N8-g2J"/>
@@ -761,7 +761,7 @@
         <!--Index Controller-->
         <scene sceneID="a4I-vP-tLo">
             <objects>
-                <viewController id="C7T-2x-kwK" customClass="IndexController" sceneMemberID="viewController">
+                <viewController id="C7T-2x-kwK" customClass="IndexController" customModule="Giv" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BEH-jN-IeW"/>
                         <viewControllerLayoutGuide type="bottom" id="EyW-yK-RRk"/>

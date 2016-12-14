@@ -9,16 +9,17 @@
 import UIKit
 import Alamofire
 
-class FourthViewController: UIViewController {
+class IndexController: UIViewController {
     
     let auth = Auth()
     var finalBalance = ""
     
     @IBOutlet weak var balance: UILabel!
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("view did load was hit")
+        
         self.auth.getBalance(completion: self.renderBalance)
     }
     
@@ -28,6 +29,7 @@ class FourthViewController: UIViewController {
     }
     
     func renderBalance(_ balance_complete: String) {
+        print("render Balance was hit")
         self.finalBalance = balance_complete
         balance.text = self.finalBalance
     }
@@ -35,5 +37,20 @@ class FourthViewController: UIViewController {
     @IBAction func renderNewBalance(sender: UIButton) {
         auth.updateBalance()
         balance.text = "0.00"
+        
+        let alert = UIAlertController(title: "Saved", message: generateMessage(), preferredStyle: UIAlertControllerStyle.alert)
+        
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+            print("Handle Ok logic here")
+        }))
+
+        present(alert, animated: true, completion: nil)
+
     }
+    
+    func generateMessage() -> String {
+        let message = "Thank you for making a charitable donation! Your balance has been reset to $0.00"
+        return message
+    }
+
 }

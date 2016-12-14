@@ -3,7 +3,7 @@
 //  Giv
 //
 //  Created by Akash Kejriwal on 12/4/16.
-//  Copyright © 2016 Akash Kejriwal. All rights reserved.\
+//  Copyright © 2016 Akash Kejriwal. All rights reserved.
 //
 
 import UIKit
