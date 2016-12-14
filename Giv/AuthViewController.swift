@@ -78,7 +78,6 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
             case "connected"?:
                 auth.authCallback(publicToken: queryParams["public_token"]!)
                 performSegue(withIdentifier: "toHome", sender: nil)
-
                 break
                 
             case "exit"?:

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D18AF851E01870600E303BB /* RegisterViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D18AF841E01870600E303BB /* RegisterViewTests.swift */; };
 		9D2022ED1DF754C7008843E6 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2022EC1DF754C7008843E6 /* LandingViewController.swift */; };
 		9D2022F01DF7668C008843E6 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2022EF1DF7668C008843E6 /* ConnectViewController.swift */; };
 		9D2022F21DF8EC4D008843E6 /* TransactionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2022F11DF8EC4D008843E6 /* TransactionViewCell.swift */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		206CF447BF1E5246A753A098 /* Pods_Giv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Giv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D18AF841E01870600E303BB /* RegisterViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewTests.swift; sourceTree = "<group>"; };
 		9D2022EC1DF754C7008843E6 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		9D2022EE1DF7564D008843E6 /* SF-Compact-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Regular.otf"; sourceTree = "<group>"; };
 		9D2022EF1DF7668C008843E6 /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 			children = (
 				9DDEF7531DF4185800382558 /* GivTests.swift */,
 				9DDEF7551DF4185800382558 /* Info.plist */,
+				9D18AF841E01870600E303BB /* RegisterViewTests.swift */,
 			);
 			path = GivTests;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DDEF7541DF4185800382558 /* GivTests.swift in Sources */,
+				9D18AF851E01870600E303BB /* RegisterViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
