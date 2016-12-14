@@ -79,34 +79,17 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
                 auth.authCallback(publicToken: queryParams["public_token"]!)
                 performSegue(withIdentifier: "toHome", sender: nil)
 
-                // Parse data passed from Link into a dictionary
-                // This includes the public_token as well as account and institution metadata
-                print("Public Token: \(queryParams["public_token"])");
-                print("Account ID: \(queryParams["account_id"])");
-                print("Institution type: \(queryParams["institution_type"])");
-                print("Institution name: \(queryParams["institution_name"])");
                 break
                 
             case "exit"?:
                 
                 // Close the webview
                 self.dismiss(animated: true, completion: nil)
-                
-                // Parse data passed from Link into a dictionary
-                // This includes information about where the user was in the Link flow
-                // any errors that occurred, and request IDs
-                print("URL: \(navigationAction.request.url?.absoluteString)")
-                // Output data from Link
-                print("User status in flow: \(queryParams["status"])");
-                // The requet ID keys may or may not exist depending on when the user exited
-                // the Link flow.
-                print("Link request ID: \(queryParams["link_request_id"])");
-                print("Plaid API request ID: \(queryParams["link_request_id"])");
+        
                 break
                 
             default:
-                print("Link action detected: \(actionType)")
-                break
+                               break
             }
             decisionHandler(.cancel)
             
@@ -118,7 +101,6 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
             UIApplication.shared.openURL(navigationAction.request.url!)
             decisionHandler(.cancel)
         } else {
-            print("Unrecognized URL scheme detected that is neither HTTP, HTTPS, or related to Plaid Link: \(navigationAction.request.url?.absoluteString)");
             decisionHandler(.allow)
         }
     }
