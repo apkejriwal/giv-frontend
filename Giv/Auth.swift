@@ -29,6 +29,26 @@ class Auth {
         }
     }
     
+    func login(email:String, password:String) {
+        //        let urlString = "http://128.237.214.136:3000/api/auth/login"
+        
+        let urlString = "https://giv-server-mksaevmwqj.now.sh/api/auth/login"
+        
+        let parameters: Parameters = [
+            "email": email,
+            "password": password,
+            ]
+        
+        
+        Alamofire.request(urlString, method: .post, parameters: parameters).responseJSON { responseString in
+            if let JSON = responseString.result.value {
+                let JSONResponse = JSON as! NSDictionary
+                let token = JSONResponse["token"]!
+                PlistManager.sharedInstance.saveValue(value: token as AnyObject, forKey: "token")
+            }
+        }
+    }
+    
     func updateBalance() {
         let urlString = "https://giv-server-mksaevmwqj.now.sh/api/auth/makedonation"
 //        let urlString = "http://128.237.214.136:3000/api/auth/makedonation"
@@ -90,21 +110,6 @@ class Auth {
         }
     }
     
-    func login(email:String, password:String) {
-        
-            let urlString = "https://giv-server-mksaevmwqj.now.sh/api/auth/login"
-//          let urlString = "http://128.237.214.136:3000/api/auth/login"
-        
-        let parameters: Parameters = [
-            "email": email,
-            "password": password,
-            ]
-        
-        Alamofire.request(urlString, method: .post, parameters: parameters, encoding: URLEncoding.default).responseJSON { response in
-
-        }
-    }
-    
     func connectCallback(publicToken: String) {
         let urlString = "https://giv-server-mksaevmwqj.now.sh/api/oauth/plaidconnectcallback?public_token=" + publicToken
         
@@ -121,7 +126,7 @@ class Auth {
     }
     
     func authCallback(publicToken: String) {
-          let urlString = "https://giv-server-mksaevmwqj.now.sh/api/oauth/plaidauthcallback?public_token=" + publicToken
+        let urlString = "https://giv-server-mksaevmwqj.now.sh/api/oauth/plaidauthcallback?public_token=" + publicToken
 
         
         let headers: HTTPHeaders = [

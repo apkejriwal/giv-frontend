@@ -20,6 +20,7 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
         
         // load the link url
         let linkUrl = generateLinkInitializationURL()
+        print(linkUrl)
         let url = NSURL(string: linkUrl)
         let request = NSURLRequest(url:url! as URL)
         self.webView.load(request as URLRequest)

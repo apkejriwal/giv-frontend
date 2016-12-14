@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Giv/Auth.swift"
-            timestampString = "503413118.073203"
+            timestampString = "503426543.613986"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "createUser(first_name:last_name:email:password:role:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -136,11 +136,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Giv/Auth.swift"
-            timestampString = "503425505.435831"
+            timestampString = "503426543.613986"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149">
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "Auth"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -166,11 +168,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Giv/Auth.swift"
-            timestampString = "503413118.073203"
+            timestampString = "503426543.613986"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "getUserTransactions(completion:)"
             landmarkType = "7">
          </BreakpointContent>
