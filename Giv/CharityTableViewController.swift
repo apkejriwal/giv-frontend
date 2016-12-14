@@ -16,15 +16,13 @@ class CharityTableViewController: UITableViewController {
         super.viewDidLoad()
         
         self.auth.getCharities(completion: self.setCharity)
-        print(self.charityNames)
-        print("charityNames in vdl above")
         tableView.backgroundView = UIImageView(image: UIImage(named: "blue_wallpaper-1"))
     }
     
     func setCharity(_ charities: [String]) {
         let finalCharity = charities
         self.charityNames = finalCharity
-        do_table_refresh()
+        refresh_table()
     }
     
     
@@ -54,7 +52,7 @@ class CharityTableViewController: UITableViewController {
         return cell
     }
     
-    func do_table_refresh() {
+    func refresh_table() {
         self.tableView.reloadData()
     }
     

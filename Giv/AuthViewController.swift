@@ -43,7 +43,6 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
     func generateLinkInitializationURL() -> String {
         let config = [
             "key": "3e5986e00a2b17261c3384a8c3e274",
-//            "key": "test_key",
             "product": "auth",
             "longtail": "true",
             "selectAccount": "true",

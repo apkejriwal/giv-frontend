@@ -18,8 +18,6 @@ class IndexController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("view did load was hit")
-        
         self.auth.getBalance(completion: self.renderBalance)
     }
     
@@ -29,7 +27,6 @@ class IndexController: UIViewController {
     }
     
     func renderBalance(_ balance_complete: String) {
-        print("render Balance was hit")
         self.finalBalance = balance_complete
         balance.text = self.finalBalance
     }
@@ -41,7 +38,6 @@ class IndexController: UIViewController {
         let alert = UIAlertController(title: "Saved", message: generateMessage(), preferredStyle: UIAlertControllerStyle.alert)
         
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
-            print("Handle Ok logic here")
         }))
 
         present(alert, animated: true, completion: nil)

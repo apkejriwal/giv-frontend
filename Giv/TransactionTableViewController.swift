@@ -21,22 +21,16 @@ class TransactionTableViewController: UITableViewController {
     let auth = Auth()
     var data = [[String:String]]()
     
-//    var data = [{String:String}]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("vdl")
         self.auth.getUserTransactions(completion: self.setLists)
-        print("test2")
         tableView.backgroundView = UIImageView(image: UIImage(named: "blue_wallpaper-1"))
         
     }
     
     func setLists(_ information: [[String : String]]) {
         self.data = information
-        print("information below")
-        print(self.data)
-        do_table_refresh()
+        refresh_table()
     }
     
     override func didReceiveMemoryWarning() {
@@ -71,7 +65,7 @@ class TransactionTableViewController: UITableViewController {
                return cell
     }
     
-    func do_table_refresh() {
+    func refresh_table() {
         self.tableView.reloadData()
     }
 }

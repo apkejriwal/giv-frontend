@@ -12,10 +12,6 @@ class IntermediateAuthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("JWT")
-        print(PlistManager.sharedInstance.getValueForKey(key: "token")! as! String)
-        print("JWT")
-
         // Do any additional setup after loading the view.
     }
 
