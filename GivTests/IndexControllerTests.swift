@@ -1,5 +1,5 @@
 //
-//  RegisterViewTests.swift
+//  IndexControllerTests.swift
 //  Giv
 //
 //  Created by Akash Kejriwal on 12/14/16.
@@ -10,13 +10,14 @@ import XCTest
 import UIKit
 @testable import Giv
 
-class RegisterViewTests: XCTestCase {
+class IndexControllerTests: XCTestCase {
     
-    var testVC: RegisterViewController = RegisterViewController()
-    
+    var testVC: IndexController = IndexController()
+
     override func setUp() {
         super.setUp()
-        self.testVC = RegisterViewController()
+        self.testVC = IndexController()
+
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -26,16 +27,18 @@ class RegisterViewTests: XCTestCase {
     }
     
     func testInit() {
-        XCTAssertEqual(self.testVC.role, "Donor")
+        XCTAssertEqual(self.testVC.finalBalance, "")
     }
     
-    func testRoleChange() {
-        
-        self.testVC.role = "Donor"
-        
-        XCTAssertEqual(self.testVC.role, "Donor")
-        self.testVC.changeRole()
-        XCTAssertEqual(self.testVC.role, "Charity")
+    func testRenderBalance() {
+        let value = "20.00"
+        XCTAssertEqual(self.testVC.finalBalance, "")
+        self.testVC.renderBalance(value)
+        XCTAssertEqual(self.testVC.finalBalance, "20.00")
+    }
+    
+    func testGenerateMessage() {
+        XCTAssertEqual(self.testVC.generateMessage(),"Thank you for making a charitable donation! Your balance has been reset to $0.00")
     }
     
     func testPerformanceExample() {
@@ -46,3 +49,4 @@ class RegisterViewTests: XCTestCase {
     }
     
 }
+

@@ -1,5 +1,5 @@
 //
-//  RegisterViewTests.swift
+//  LoginViewControllerTests.swift
 //  Giv
 //
 //  Created by Akash Kejriwal on 12/14/16.
@@ -10,13 +10,15 @@ import XCTest
 import UIKit
 @testable import Giv
 
-class RegisterViewTests: XCTestCase {
+
+class LoginViewControllerTests: XCTestCase {
     
-    var testVC: RegisterViewController = RegisterViewController()
+    var testVC: LoginViewController = LoginViewController()
     
     override func setUp() {
         super.setUp()
-        self.testVC = RegisterViewController()
+        self.testVC = LoginViewController()
+
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -26,16 +28,8 @@ class RegisterViewTests: XCTestCase {
     }
     
     func testInit() {
-        XCTAssertEqual(self.testVC.role, "Donor")
-    }
-    
-    func testRoleChange() {
-        
-        self.testVC.role = "Donor"
-        
-        XCTAssertEqual(self.testVC.role, "Donor")
-        self.testVC.changeRole()
-        XCTAssertEqual(self.testVC.role, "Charity")
+        XCTAssertEqual(self.testVC.email,nil)
+        XCTAssertEqual(self.testVC.password, nil)
     }
     
     func testPerformanceExample() {
@@ -46,3 +40,5 @@ class RegisterViewTests: XCTestCase {
     }
     
 }
+
+

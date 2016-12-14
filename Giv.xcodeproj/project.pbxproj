@@ -30,6 +30,10 @@
 		9DDEF75F1DF4185800382558 /* GivUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDEF75E1DF4185800382558 /* GivUITests.swift */; };
 		9DDEF76D1DF41D1000382558 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDEF76C1DF41D1000382558 /* SettingController.swift */; };
 		9DDEF76F1DF46ACB00382558 /* IndexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDEF76E1DF46ACB00382558 /* IndexController.swift */; };
+		9DE2470B1E019260009B17E3 /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2470A1E019260009B17E3 /* LoginViewControllerTests.swift */; };
+		9DE2470D1E01935B009B17E3 /* ConnectViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2470C1E01935B009B17E3 /* ConnectViewControllerTests.swift */; };
+		9DE2470F1E019A0F009B17E3 /* AuthViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE2470E1E019A0F009B17E3 /* AuthViewControllerTests.swift */; };
+		9DE247131E019BDA009B17E3 /* IndexControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE247121E019BDA009B17E3 /* IndexControllerTests.swift */; };
 		D283AA9524B6CC2FEE1AF5CF /* Pods_Giv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206CF447BF1E5246A753A098 /* Pods_Giv.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +86,10 @@
 		9DDEF7601DF4185800382558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DDEF76C1DF41D1000382558 /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		9DDEF76E1DF46ACB00382558 /* IndexController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexController.swift; sourceTree = "<group>"; };
+		9DE2470A1E019260009B17E3 /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
+		9DE2470C1E01935B009B17E3 /* ConnectViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewControllerTests.swift; sourceTree = "<group>"; };
+		9DE2470E1E019A0F009B17E3 /* AuthViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewControllerTests.swift; sourceTree = "<group>"; };
+		9DE247121E019BDA009B17E3 /* IndexControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexControllerTests.swift; sourceTree = "<group>"; };
 		E555111261EFFCB8273976DD /* Pods-Giv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Giv/Pods-Giv.debug.xcconfig"; sourceTree = "<group>"; };
 		FE5199B30673692586484DB5 /* Pods-Giv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giv.release.xcconfig"; path = "Pods/Target Support Files/Pods-Giv/Pods-Giv.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -226,6 +234,10 @@
 				9DDEF7531DF4185800382558 /* GivTests.swift */,
 				9DDEF7551DF4185800382558 /* Info.plist */,
 				9D18AF841E01870600E303BB /* RegisterViewTests.swift */,
+				9DE2470A1E019260009B17E3 /* LoginViewControllerTests.swift */,
+				9DE2470E1E019A0F009B17E3 /* AuthViewControllerTests.swift */,
+				9DE2470C1E01935B009B17E3 /* ConnectViewControllerTests.swift */,
+				9DE247121E019BDA009B17E3 /* IndexControllerTests.swift */,
 			);
 			path = GivTests;
 			sourceTree = "<group>";
@@ -448,7 +460,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE2470B1E019260009B17E3 /* LoginViewControllerTests.swift in Sources */,
 				9DDEF7541DF4185800382558 /* GivTests.swift in Sources */,
+				9DE2470F1E019A0F009B17E3 /* AuthViewControllerTests.swift in Sources */,
+				9DE2470D1E01935B009B17E3 /* ConnectViewControllerTests.swift in Sources */,
+				9DE247131E019BDA009B17E3 /* IndexControllerTests.swift in Sources */,
 				9D18AF851E01870600E303BB /* RegisterViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
