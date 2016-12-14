@@ -26,16 +26,7 @@ class IndexControllerTests: XCTestCase {
         super.tearDown()
     }
     
-    func testInit() {
-        XCTAssertEqual(self.testVC.finalBalance, "")
-    }
-    
-    func testRenderBalance() {
-        let value = "20.00"
-        XCTAssertEqual(self.testVC.finalBalance, "")
-        self.testVC.renderBalance(value)
-        XCTAssertEqual(self.testVC.finalBalance, "20.00")
-    }
+
     
     func testGenerateMessage() {
         XCTAssertEqual(self.testVC.generateMessage(),"Thank you for making a charitable donation! Your balance has been reset to $0.00")
